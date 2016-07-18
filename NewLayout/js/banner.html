@@ -1,0 +1,57 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <script src="jquery-1.6.1.min.js" type="text/javascript"></script>
+    <script src="slides.js" type="text/javascript"></script>
+  <script type="text/javascript">
+        $(document).ready( function() {
+          $('#slides').slides({
+        container: 'slides-container',
+        pagination: true,
+        play: 5000,
+        pause: 2500,
+        slideSpeed: 600,
+        hoverPause: true
+      });
+        });
+    </script>
+    <style type="text/css">
+      body{margin:0;padding:0}
+      #slides                                     { background:#fff; padding:0 0 }
+    #slides .slides-container                   { width:963px; height:428px; overflow:hidden; position:relative; display:none }
+    #slides .slides-container a                 { width:963px; height:428px; display:block }
+    #slides .slide                              { width:963px; height:428px }
+    #slides .slide .content                     { position:absolute; margin-left:370px; margin-top:150px }
+    #slides .slide .content h2                  { font-size:27px; font-weight:bold; font-style: italic; }
+    #slides .slide .content h2 span             { color:#19a3dd }
+    #slides .slide .content .body               { font-size:19px; line-height:30px }
+    #slides .slide .content .body a             { display: inline; height: auto; width: auto; }
+
+    #slides-navigation                          { position:relative;top: -42px;right:0px;float:right;z-index:10000;padding-right:10px;}
+    #slides .pagination                         { position:relative;top:-25px;z-index:9999;text-align:center; margin:0 }
+    #slides .pagination li                      { display:inline-block; list-style:none; margin:0 3px }
+    #slides .pagination li a                    { display:inline-block; text-indent:-9999em; background:#666; width:8px; height:8px; border-radius:10px }
+    #slides .pagination li.current a            { background:#c9050a }
+    </style>
+</head>
+<body>
+<div id="slides">
+    <div class="slides-container wrapper">
+        
+<div class="slide"><img src="../images/banner1.png" alt="BHRTC" title="BHRTC"></div>
+        <div class="slide"><img src="../images/banner2.png" alt="BHRTC" title="BHRTC"></div>
+        <div class="slide"><img src="../images/banner3.png" alt="BHRTC" title="BHRTC"></div>
+        <div class="slide"><img src="../images/banner4.png" alt="BHRTC" title="BHRTC"></div>
+        <div class="slide"><img src="../images/banner5.png" alt="BHRTC" title="BHRTC"></div>
+        <div class="slide"><img src="../images/banner6.png" alt="BHRTC" title="BHRTC"></div>
+    </div>
+    <div id="slides-navigation">
+        <a href="#" class="prev"><img src="../images/arrow_left.png" alt="arrow" border="0" /></a>
+        <a href="#" class="next"><img src="../images/arrow_right.png" alt="arrow" border="0" /></a>
+    </div>
+</div>
+</body>
+</html>
+
