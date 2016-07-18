@@ -1,0 +1,1349 @@
+﻿/****************** GAURAVLUXURY FONTS *******************************/
+
+@font-face {
+		font-family: 'LucidaGrandeRegular';
+		src: url('lucida_grande-webfont.eot');
+		src: local('☺'), url('lucida_grande-webfont.woff') format('woff'), url('lucida_grande-webfont.ttf') format('truetype');
+		font-weight: bold;
+		font-style: normal;
+        	}
+@font-face {
+		font-family: 'LucidaGrandeBold';
+		src: url('lucida_grande_bold-webfont.eot');
+		src: local('☺'), url('lucida_grande_bold-webfont.woff') format('woff'), url('lucida_grande_bold-webfont.ttf') format('truetype');
+		font-weight: bold;
+		font-style: normal;
+		   }
+@font-face {
+		font-family: 'HelveticaNeueMdCn';
+		src: url('helveticaneueltpro-mdcn-webfont.eot');
+		src: local('☺'), url('helveticaneueltpro-mdcn-webfont.woff') format('woff'), url('helveticaneueltpro-mdcn-webfont.ttf') format('truetype');
+		font-weight: bold;
+		font-style: normal;
+			}
+@font-face {
+		font-family: 'HelveticaNeueLtCnO';
+		src: url('helveticaneueltcom-ltcno-webfont.eot');
+		src: local('☺'), url('helveticaneueltcom-ltcno-webfont.woff') format('woff'), url('helveticaneueltcom-ltcno-webfont.ttf') format('truetype');
+		font-weight: bold;
+		font-style: normal;
+		}
+		
+/****************** GAURAVLUXURY BODY SECTION *******************************/
+
+body	{
+		background:#f1e9e9 url(../images/background.png) repeat-y center top;
+		margin:0px;
+		padding:0px;
+		font:normal 12px Arial;
+		color:#222222;
+		}
+ul li{
+		list-style-type:none;
+		}
+		
+img{
+		border:none;
+		}
+		
+.wraper{
+		background:#FFFFFF;
+		margin:0 auto;
+		padding:0px;
+		width:950px;
+		height:auto;
+		}
+.clear{
+		clear:both;
+		}
+
+
+/****************** GAURAVLUXURY HEADER SECTION *******************************/
+.header{
+		height:100px; 
+		width:100%;
+		margin:0px;
+		padding:0px;
+		float:left;
+		z-index:10000;
+		position:relative;
+		}
+		
+.logo{
+		margin:5px 0px 0px 0px;
+		padding:0px;
+		float:left;
+		height:90px;
+		width:206px;
+		}
+.topbanner{
+		margin:0px 0px 0px 0px;
+		padding:0px;
+		float:left;
+		height:90px;
+		width:206px;
+		}
+.right-links{
+		margin:0px;
+		padding:0px 20px 0px 0px;
+		float:right;
+		height:98px;
+		width:250px;
+		}
+.smal_links{
+		margin-top:20px;
+		padding:5px 0px 0px 0px;
+		float:right;
+		height:30px;
+		width:220px;
+		color:#c9050a;
+		text-align:right;
+		}
+		
+.smal_links a{
+		margin:0px;
+		padding:8px;
+		color:#c9050a;
+		font:normal 14px 'HelveticaNeueMdCn';
+		text-align:right;
+		text-decoration:none;
+		}
+.smal_links a:hover{
+		color:#c9050a;
+		margin:0px;
+		padding:8px;
+		font:normal 14px 'HelveticaNeueMdCn';
+		text-align:right;
+		text-decoration:underline;
+		}
+		
+.contact_number{
+		margin:0px;
+		padding:0px 10px 0px 0px;
+		float:right;
+		height:40px;
+		font:normal 18px 'HelveticaNeueMdCn';
+		color:#333333;
+		text-align:right;
+		width:170px;
+		}
+.contact_number img{
+		margin-left:20px;
+		padding:0px 0px 0px 0px;
+		float:left;
+		}
+		
+/****************** GAURAVLUXURY MENU SECTION *******************************/
+
+.menu{
+		margin:0px;
+		padding:0px;
+		float:left;
+		width:100%;
+		height:45px;
+		background:url(../images/menu_bg.png) no-repeat center top;
+		}
+		
+.menu ul{
+		margin:0px;
+		padding:0px;
+		}
+.menu ul li{
+		margin:0px;
+		padding:0px;
+		list-style-type:none;
+		display:inline;
+		float:left;
+		background:url(../images/diveder.png) no-repeat right top;
+		}
+.menu ul li a{
+		margin:0px;
+		padding:10px 28px 10px 28px;
+		text-decoration:none;
+		font:normal 20px 'HelveticaNeueMdCn';
+		color:#FFFFFF;
+		float:left;
+		}
+		
+.menu ul li a:hover{
+		margin:0px;
+		padding:10px 28px 10px 28px;
+		text-decoration:none;
+		font:normal 20px 'HelveticaNeueMdCn';
+		color:#FFFFFF;
+		float:left;
+		background:url(../images/menu_hover.png) repeat-x center top;
+		}
+.menu_bottom_border{
+		margin:0px;
+		padding:0px;
+		float:left;
+		height:10px;
+		width:100%;
+		background:#c9050a;
+		}
+
+/****************** GAURAVLUXURY BANNER SECTION *******************************/
+
+
+.banner{
+		height:430px;
+		width:100%;
+		margin:55px 0px 0px 0px;
+		float:left;
+		padding:0px;
+		position:relative;
+		background:url(../images/banner_bg.png) no-repeat top center;
+		}
+		
+		
+.banner_loginform{
+		height:263px;
+		width:292px;
+		margin:0px;
+		padding:0px;
+		position:absolute;
+		background:url(../images/banner_login_bg.png) no-repeat center top;
+		left: 625px;
+	    top: 60px;
+		}
+		
+iframe{margin:0px; padding:0px; float:left; border:none; height:428px; width:948px; overflow:hidden; }
+
+.top_login_headding{
+		margin:15px 15px 15px 5px;
+		padding:0px;
+		float:left;
+		width:120px;
+		text-align:right;
+		color:#c9050a;
+		font:normal 20px 'HelveticaNeueMdCn';
+		}
+.login_form_details{
+		margin:0px 0px 0px 10px;
+		padding:0px;
+		float:left;
+		height:auto;
+		width:270px;
+		}
+.login_form_details .jumpmemu_feilds{
+		margin:0px;
+		padding:0px;
+		float:left;
+		height:25px;
+		width:135px;
+		background:#fff;
+		border:solid 1px #c0c0c0;
+		}
+
+
+
+/****************** GAURAVLUXURY CONTENT-BODY SECTION *******************************/
+.content_body{
+		margin:10px 0px 0px 0px;
+		padding:0px;
+		width:100%;
+		height:auto;
+		float:left;
+		}
+		
+.agent_block{
+		margin:0px;
+		padding:8px;
+		float:left;		
+		width:294px;
+		height:300px;
+		background:#fff url(../images/block_bg.png) no-repeat center top;
+		}
+.agent_block h2{
+		margin:0px;
+		padding:0px;
+		float:left;
+		color:#c9050a;
+		font:normal 20px 'HelveticaNeueMdCn';
+		}
+		
+.border{
+		border-bottom:solid 1px #696969;
+		height:1px;
+		width:100%;
+		float:left;
+		margin-top:10px;
+		padding:0px;
+		}
+	
+.agent_block span{
+		margin:0px 10px 0px 0px;
+		padding:0px;
+		float:left;
+		color:#383838;
+		font:normal 20px 'HelveticaNeueMdCn';
+		float:right;
+		}
+		
+.agent_block .username{
+		margin-top:10px;
+		margin-left:10px;
+		padding:0px;
+		float:left;
+		height:30px;
+		width:100px;
+		font:normal 14px 'HelveticaNeueMdCn';
+		color:#383838;
+
+		}
+		
+.agent_block .user_textfeild{
+		margin-top:10px;
+		padding:0px;
+		float:left;
+		height:30px;
+		width:auto;
+		}
+.agent_block .user_textfeild input{
+		background:#ecdbc6;
+		border:solid 1px #ddc3a3;
+		height:15px;
+		margin:0px;
+		padding:5px;
+		color:#000;
+		}
+.agent_block .logincode{
+		margin:10px;
+		padding:3px;
+		float:left;
+		height:20px;
+		background:#fff;
+		border:solid 1px #ddc3a3;
+		width:82px;
+		font:normal 14px 'HelveticaNeueMdCn';
+		color:#383838;
+		}
+		
+.agent_block .submit{
+		margin-top:10px;
+		padding:0px;
+		float:left;
+		height:25px;
+		width:70px;
+		}
+
+.agent_block .submit input{
+		height:22px;
+		width:68px;
+		margin:0px;
+		padding:0px;
+		background:url(../images/submitbg.png) no-repeat center top;
+		cursor:pointer;
+		border:none;
+		color:#fff;
+		font:normal 14px 'HelveticaNeueMdCn';
+		text-transform:uppercase;
+		}
+		
+.agent_block .forgotpassword{
+		margin-top:10px;
+		margin-left:10px;
+		padding:0px;
+		float:left;
+		height:30px;
+		width:140px;
+		}
+
+.agent_block .forgotpassword input{
+		height:28px;
+		width:140px;
+		margin:0px;
+		padding:0px;
+		background:url(../images/forgot_password.png) no-repeat center top;
+		cursor:pointer;
+		border:none;
+		color:#fff;
+		font:normal 14px 'HelveticaNeueMdCn';
+		text-transform:uppercase;
+		}
+		
+.agent_block .new_user{
+		margin-top:10px;
+		margin-left:20px;
+		padding:0px;
+		float:left;
+		height:30px;
+		width:90px;
+		}
+
+.agent_block .new_user input{
+		height:28px;
+		width:88px;
+		margin:0px;
+		padding:0px;
+		background:url(../images/new_user.png) no-repeat center top;
+		cursor:pointer;
+		border:none;
+		color:#fff;
+		font:normal 14px 'HelveticaNeueMdCn';
+		text-transform:uppercase;
+		}
+		
+		
+.instant_ticket_block{
+		margin:0px 0px 0px 10px;
+		padding:8px;
+		float:left;
+		height:280px;
+		width:294px;
+		background:#fff url(../images/block_bg.png) no-repeat center top;
+		}
+		
+.instant_ticket_block h2{
+		margin:0px;
+		padding:0px;
+		float:left;
+		color:#c9050a;
+		font:normal 18px 'HelveticaNeueMdCn';
+		}
+		
+.instant_ticket_block span{
+		margin:0px;
+		padding:0px;
+		float:left;
+		color:#383838;
+		font:normal 18px 'HelveticaNeueMdCn';
+		}
+		
+.instant_ticket_block .text1{
+		margin-top:5px;
+		padding:10px;
+		float:left;
+		color:#6c0104;
+		width:275px;
+		text-align:center;
+		font:bold 16px Arial, Helvetica, sans-serif;
+		}
+.instant_ticket_block .text1:hover{
+		background:#efc2c3;
+		cursor:default;
+		}
+
+		
+.instant_ticket_block .text2{
+		margin:0px;
+		padding:10px;
+		float:left;
+		color:#0221dd;
+		width:275px;
+		text-align:center;
+		font:bold 16px Arial, Helvetica, sans-serif;
+		}
+.instant_ticket_block .text2:hover{
+		background:#bcc3ee;
+		cursor:default;
+		}
+		
+.instant_ticket_block .text3{
+		margin:0px;
+		padding:10px;
+		float:left;
+		color:#006f15;
+		width:275px;
+		text-align:center;
+		font:bold 16px Arial, Helvetica, sans-serif;
+		}
+		
+.instant_ticket_block .text3:hover{
+		background:#b7e9c0;
+		cursor:default;
+		}
+		
+.instant_ticket_block .text4{
+		margin:0px;
+		padding:10px;
+		float:left;
+		color:#8d00b6;
+		width:275px;
+		text-align:center;
+		font:bold 16px Arial, Helvetica, sans-serif;
+		}
+		
+.instant_ticket_block .text4:hover{
+		background:#e7c2f2;
+		cursor:default;
+		}
+
+
+.newroutes_block{
+		margin:0px 0px 0px 10px;
+		padding:8px;
+		float:left;
+		height:300px;
+		width:294px;
+		background:#fff url(../images/block_bg.png) no-repeat center top;
+		}
+		
+.newroutes_block h2{
+		margin:0px;
+		padding:0px;
+		float:left;
+		color:#c9050a;
+		font:normal 19px 'HelveticaNeueMdCn';
+		}
+		
+.newroutes_block span{
+		margin:0px;
+		padding:0px;
+		float:left;
+		color:#383838;
+		font:normal 19px 'HelveticaNeueMdCn';
+		}
+		
+.loading {
+        display: none;
+            }
+.accordion {
+        width:289px;
+		margin-top:10px;
+		padding:0px;
+		float:left;
+		margin-left:0px;
+		display:block;				
+            }
+.accordion ul{
+		margin:0px;
+		padding:0px;
+		float:left;
+		}
+.accordion ul li{
+		margin:0px;
+		padding:0px;
+		float:left;
+		list-style-type:none;
+		}
+.accordion li h3 a {
+		color: #fff;
+		display:block;
+		font-style:normal;
+		margin:0px;
+		padding:0px;
+		list-style-type:none;
+		float:left;
+		}
+.accordion li h3 {
+		margin:5px 0px 0px 0px;
+		padding:0;
+		float:left;
+		
+		}
+.accordion .panel {
+		padding:8px 10px 8px 15px;
+		float:left;
+		margin:0px;
+		}
+		
+.accordion .panel span {
+		margin:0px;
+		padding:2px;
+		float:left;
+		font:normal 14px 'HelveticaNeueMdCn';
+		text-align:left;
+		text-transform:uppercase;
+		color:#000;
+		}
+
+.accordion li.active h3 a {
+		color: #fff;
+		display:block;
+		font-style:normal;
+		margin:0px;
+		padding:0px;
+		float:left;
+	}
+	
+	
+	
+	
+/****************** GAURAVLUXURY CONTENT BOTTOM SECTION *******************************/
+
+
+.welcome_block{
+		margin:0px;
+		padding:0px;
+		float:left;
+		height:520px;
+		width:310px;
+		background:#fff url(../images/bottom_block_bg.png);
+		border-radius:5px 5px 0px 0px;
+		}
+.welcome_block h2{
+		margin:0px;
+		padding:0px;
+		float:left;
+		color:#c9050a;
+		font:normal 20px 'HelveticaNeueMdCn';
+		height:25px;
+		}
+
+.welcome_block span{
+		margin:0px 0px 0px 8px;
+		padding:0px;
+		float:left;
+		color:#383838;
+		
+		font:normal 20px 'HelveticaNeueMdCn';
+		}
+.welcome_block img {
+		margin:0px 0px 10px 0px;
+		padding:0px;
+		float:left;
+		width:310px;
+		height:180px;
+		border-bottom:solid 6px #c9050a;
+		}
+.welcome_block p{
+		margin:0px;
+		padding:10px;
+		color:#222222;
+		font:normal 13px Arial, Helvetica, sans-serif;
+		float:left;
+		width:90%;
+		text-align:justify;
+		}
+
+.facebook_block{
+		margin:0px 0px 0px 10px;
+		padding:0px;
+		float:left;
+		height:520px;
+		width:310px;
+		background:#fff url(../images/bottom_block_bg.png);
+		border-radius:5px 5px 0px 0px;
+		}
+.facebook_block h2{
+		margin:10px 0px 0px 0px;
+		padding:0px;
+		float:left;
+		color:#c9050a;
+		font:normal 20px 'HelveticaNeueMdCn';
+		}
+
+.facebook_block .top_img {
+		margin:0px 0px 10px 0px;
+		padding:0px;
+		float:left;
+		width:310px;
+		height:180px;
+		border-bottom:solid 6px #c9050a;
+		}
+		
+		
+.facebook_block .gallery_img {
+		margin:10px 0px 10px 10px;
+		padding:0px;
+		float:left;
+		text-align:center;
+		}
+
+
+
+.contact_block{
+		margin:0px 0px 0px 10px;
+		padding:0px;
+		float:left;
+		height:520px;
+		width:310px;
+		background:#fff url(../images/bottom_block_bg.png);
+		border-radius:5px 5px 0px 0px;
+		}
+.contact_block h2{
+		margin:0px 0px 0px 0px;
+		padding:0px;
+		float:left;
+		color:#c9050a;
+		font:normal 20px 'HelveticaNeueMdCn';
+		}
+
+.contact_block span{
+		margin:0px 0px 0px 8px;
+		padding:0px;
+		float:left;
+		color:#383838;
+		font:normal 20px 'HelveticaNeueMdCn';
+		}
+.contact_block .top_img {
+		margin:0px 0px 10px 0px;
+		padding:0px;
+		float:left;
+		width:310px;
+		height:180px;
+		border-bottom:solid 6px #c9050a;
+		}
+		
+.contact_block .details{
+		margin:0px;
+		padding:10px 10px 0px 10px;
+		float:left;
+		width:93%;
+		}
+		
+.contact_block .weaccept{
+		margin:0px;
+		padding:0px;
+		color:#c9050a;
+		font:normal 14px 'HelveticaNeueMdCn';
+		}
+
+
+
+
+/****************** GAURAVLUXURY FOOTER SECTION *******************************/
+
+.footer{
+		margin:0px;
+		background:url(../images/footer_bg.png) no-repeat center top;
+		padding:0px;
+		float:left;
+		height:60px;
+		width:950px;
+		}
+.footer .links{
+		margin-top:20px;
+		padding:0px;
+		float:left;
+		width:560px;
+		color:#fff;
+		}
+.footer .links li{
+		list-style-type:none;
+		margin:0px;
+		padding:0px;
+		float:left;
+		display:inline;
+		}
+.footer .links li a{
+		margin:0px;
+		padding-left:10px;
+		padding-right:10px;
+		font:normal 12px Arial, Helvetica, sans-serif;
+		color:#fff;
+		text-decoration:none;
+		}
+.footer .links li a:hover{
+		margin:0px;
+		padding-left:10px;
+		padding-right:10px;
+		color:#ccc;
+		text-decoration:none;
+		}
+.footer .followus{
+		margin:0px;
+		padding:0px;
+		float:right;
+		width:380px;
+		color:#fff;
+		}
+		
+		
+		
+		
+		
+/****************** GAURAVLUXURY INNER PAGE SECTION *******************************/
+
+
+.inner_banner{
+		height:200px;
+		width:100%;
+		margin:5px 0px 0px 0px;
+		float:left;
+		padding:0px;
+		position:relative;
+		}
+.inner_banner img{
+		border-radius:0px 0px 5px 5px;
+		}
+
+		
+.left_block{
+		background:#fff url(../images/inner_page_bg.png) repeat-x center top;
+		margin:10px 0px 0px 0px;
+		padding:10px;
+		float:left;
+		height:auto;
+		width:300px;
+		border-radius:5px;
+		}
+.left_block .adjustimg{
+		margin:10px 0px 0px 0px;
+		padding:0px;
+		float:left;
+		}
+.left_agent_block{
+		margin:0px;
+		padding:8px;
+		float:left;
+		height:auto;
+		width:280px;
+		}
+.left_agent_block h2{
+		margin:0px;
+		padding:0px;
+		float:left;
+		color:#c9050a;
+		font:normal 20px 'HelveticaNeueMdCn';
+		}
+		
+.border{
+		border-bottom:solid 1px #696969;
+		height:1px;
+		width:100%;
+		float:left;
+		margin-top:10px;
+		padding:0px;
+		}
+	
+.left_agent_block span{
+		margin:0px 10px 0px 0px;
+		padding:0px;
+		float:left;
+		color:#383838;
+		font:normal 20px 'HelveticaNeueMdCn';
+		float:right;
+		}
+		
+.left_agent_block .username{
+		margin-top:10px;
+		margin-left:10px;
+		padding:0px;
+		float:left;
+		height:30px;
+		width:100px;
+		font:normal 14px 'HelveticaNeueMdCn';
+		color:#383838;
+
+		}
+		
+.left_agent_block .user_textfeild{
+		margin-top:10px;
+		padding:0px;
+		float:left;
+		height:30px;
+		width:auto;
+		}
+.left_agent_block .user_textfeild input{
+		background:#ecdbc6;
+		border:solid 1px #ddc3a3;
+		height:15px;
+		margin:0px;
+		padding:5px;
+		color:#000;
+		}
+.left_agent_block .logincode{
+		margin:10px;
+		padding:3px;
+		float:left;
+		height:20px;
+		background:#fff;
+		border:solid 1px #ddc3a3;
+		width:82px;
+		font:normal 14px 'HelveticaNeueMdCn';
+		color:#383838;
+		}
+		
+.left_agent_block .submit{
+		margin-top:10px;
+		padding:0px;
+		float:left;
+		height:25px;
+		width:70px;
+		}
+
+.left_agent_block .submit input{
+		height:22px;
+		width:68px;
+		margin:0px;
+		padding:0px;
+		background:url(../images/submitbg.png) no-repeat center top;
+		cursor:pointer;
+		border:none;
+		color:#fff;
+		font:normal 14px 'HelveticaNeueMdCn';
+		text-transform:uppercase;
+		}
+		
+.left_agent_block .forgotpassword{
+		margin-top:10px;
+		margin-left:10px;
+		padding:0px;
+		float:left;
+		height:30px;
+		width:140px;
+		}
+
+.left_agent_block .forgotpassword input{
+		height:28px;
+		width:140px;
+		margin:0px;
+		padding:0px;
+		background:url(../images/forgot_password.png) no-repeat center top;
+		cursor:pointer;
+		border:none;
+		color:#fff;
+		font:normal 14px 'HelveticaNeueMdCn';
+		text-transform:uppercase;
+		}
+		
+.left_agent_block .new_user{
+		margin-top:10px;
+		margin-left:20px;
+		padding:0px;
+		float:left;
+		height:30px;
+		width:90px;
+		}
+
+.left_agent_block .new_user input{
+		height:28px;
+		width:88px;
+		margin:0px;
+		padding:0px;
+		background:url(../images/new_user.png) no-repeat center top;
+		cursor:pointer;
+		border:none;
+		color:#fff;
+		font:normal 14px 'HelveticaNeueMdCn';
+		text-transform:uppercase;
+		}
+	
+		
+	.middle_block
+	{
+		float:left;
+		height:auto;
+		padding-top:55px;
+	}
+		
+	.full_block{		
+		padding:10px;
+		float:left;
+		height:auto;
+		width:928px;		
+		border:solid 1px #dcdcdc;
+		}	
+		
+	.full_block h2{
+		margin:0px 0px 10px 0px;
+		padding:0px;
+		float:left;
+		color:#c9050a;
+		font:normal 20px 'HelveticaNeueMdCn';
+		border-bottom:solid 1px #696969;
+		width:100%;
+		height:30px;
+		}
+.full_block .content{
+		margin:10px 0px 20px 0px;
+		padding:0px 0px 30px 0px;
+		float:left;
+		height:auto;
+		width:100%;
+		background:url(../images/middle_divider.png) no-repeat bottom center;
+		}
+.full_block .content p{
+		margin:0px 0px 0px 10px;
+		padding:0px;
+		text-align:justify;
+		line-height:20px;
+		}
+		
+.full_block .content .imageadjust{
+		margin:0px 10px 0px 0px;
+		padding:0px;
+		float:left;
+		}	
+		
+		
+		
+.right_block{
+		margin:10px 0px 0px 10px;
+		padding:10px;
+		float:left;
+		height:auto;
+		width:600px;
+		background:#fff url(../images/inner_page_bg.png) repeat-x center top;
+		border-radius:5px;
+		}
+		
+		
+	
+		
+.right_block h2{
+		margin:0px 0px 10px 0px;
+		padding:0px;
+		float:left;
+		color:#c9050a;
+		font:normal 20px 'HelveticaNeueMdCn';
+		border-bottom:solid 1px #696969;
+		width:100%;
+		height:30px;
+		}
+.right_block .content{
+		margin:10px 0px 20px 0px;
+		padding:0px 0px 30px 0px;
+		float:left;
+		height:auto;
+		width:100%;
+		background:url(../images/middle_divider.png) no-repeat bottom center;
+		}
+.right_block .content p{
+		margin:0px 0px 0px 10px;
+		padding:0px;
+		text-align:justify;
+		line-height:20px;
+		}
+		
+.right_block .content .imageadjust{
+		margin:0px 10px 0px 0px;
+		padding:0px;
+		float:left;
+		}
+.footer_content{
+		margin:0px;
+		padding:0px;
+		float:left;
+		height:205px;
+		width:950px;
+		background:url(../images/footer_contet_bg.png) no-repeat center top;
+		}
+		
+.footer_content h2 span{
+		margin:0px;
+		padding:0px;
+		float:left;
+		color:#383838;
+		font:normal 20px 'HelveticaNeueMdCn';
+		}
+		
+.footer_content h2{
+		margin:30px 0px 10px 0px;
+		padding:0px;
+		float:left;
+		color:#c9050a;
+		font:normal 20px 'HelveticaNeueMdCn';
+		border-bottom:solid 1px #696969;
+		width:670px;
+		height:30px;
+		}
+.footer_content .imageadjust2{
+		margin:30px 10px 0px 15px;
+		padding:0px;
+		float:left;
+		}
+.footer_content ul{
+		margin:0px;
+		padding:0px;
+		width:670px;
+		float:left;
+		}
+.footer_content ul li{
+		margin:0px;
+		padding:5px;
+		width:100%;
+		}
+.footer_content ul li a{
+		margin:0px;
+		padding:0px;
+		float:left;
+		text-decoration:none;
+		font:normal 14px 'HelveticaNeueMdCn';
+		color:#c9050a;
+
+		}
+		
+.footer_content ul li a:hover{
+		text-decoration:none;
+		color:#353535;
+		}
+		
+.b1
+{
+	background:url('../images/Booking.png') no-repeat 0 0;
+	height:50px;
+}
+.b2
+{
+	background:url('../images/Booking.png') no-repeat 0 -50px;
+	height:45px;
+}
+.b3
+{
+	background:url('../images/Booking.png') no-repeat 0 -85px;
+	height:45px;
+}
+
+.A1
+{
+	background:url('../images/BookingAgent.png') no-repeat 0 0;
+	height:50px;
+}
+.A2
+{
+	background:url('../images/BookingAgent.png') no-repeat 0 -50px;
+	height:45px;
+}
+.A3
+{
+	background:url('../images/BookingAgent.png') no-repeat 0 -85px;
+	height:45px;
+}
+
+.agnheader
+{
+	margin:5px;
+	font-weight:bold;
+	text-align:left;
+}
+.label
+{
+	vertical-align:top;
+	text-align:left;
+}
+.leftmove{float:left;}
+
+.error
+{
+	text-align:center;
+	width:100%;	
+}
+.error span
+{
+	margin:10px;
+	padding:3px;
+	text-align:center;
+	background:#ffff80;
+	border:solid 1px #ddc3a3;
+	width:100%;
+	font:normal 14px 'HelveticaNeueMdCn';
+	color:#383838;
+}
+
+.mandy
+{
+ color:Red;
+}
+
+.cal_Theme1 
+	.ajax__calendar_container 
+	{    background-color: #fff;     border:solid 1px #cccccc;}
+	.cal_Theme1 .ajax__calendar_header 
+	{    background-color: #ffffff;     margin-bottom: 4px;}
+	.cal_Theme1 .ajax__calendar_title,
+	.cal_Theme1 .ajax__calendar_next,
+	.cal_Theme1 
+	.ajax__calendar_prev    {    color: #004080;     padding-top: 3px;}
+	.cal_Theme1 .ajax__calendar_body  
+	{    background-color: #fff;     border: solid 1px #cccccc;}
+	.cal_Theme1 .ajax__calendar_dayname 
+	{    text-align:center;     font-weight:bold;     margin-bottom: 4px;     margin-top: 2px;}
+	.cal_Theme1 .ajax__calendar_day {    text-align:center;}
+	.cal_Theme1 .ajax__calendar_hover .ajax__calendar_day,
+	.cal_Theme1 .ajax__calendar_hover 
+	.ajax__calendar_month,
+	.cal_Theme1 
+	.ajax__calendar_hover 
+	.ajax__calendar_year,
+	.cal_Theme1 
+	.ajax__calendar_active  
+	{    color: #004080;     font-weight: bold;     background-color: #ffffff;}
+	.cal_Theme1 .ajax__calendar_today  
+	{    font-weight:bold;}
+
+	.cal_Theme1 .ajax__calendar_hover 
+	.ajax__calendar_today,
+	.cal_Theme1 .ajax__calendar_hover 
+	.ajax__calendar_title {    color: #bbbbbb;}     
+	
+
+.radiocss span
+{
+	float:left;
+	text-align:left;
+}
+
+.gridtop
+{
+	background:#f8f3ee url('../Images/mn.png') repeat-x;
+}
+div.modalPopup
+{
+  background:#fff;
+  border:solid 1px #dcdcdc;
+  padding:10px;
+}
+
+.modalBackground 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10000;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(0, 0, 0);
+	/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.6);
+}
+
+
+ul.sitemaptitle a 
+{
+		color:#c9050a;
+		margin:0px;
+		padding:8px;
+		font:normal 14px 'HelveticaNeueMdCn';
+		text-align:right;
+		text-decoration:underline;	
+}
+
+ul.sitemaptitle a:hover
+{
+		color:#c9050a;
+		margin:0px;
+		padding:8px;
+		font:normal 14px 'HelveticaNeueMdCn';
+		text-align:right;
+		text-decoration:none;	
+}
+ul.sitemapsubtitle li
+{
+	margin:10px;
+}
+ul.sitemapsubtitle a 
+{
+		color:#666666;
+		font:normal 12px 'HelveticaNeueMdCn';
+		text-align:right;
+		text-decoration:underline;	
+}
+ul.sitemapsubtitle a:hover
+{
+		color:#666666;		
+		font:normal 12px 'HelveticaNeueMdCn';
+		text-align:right;
+		text-decoration:none;	
+}
+.brownbgstatic
+{
+	background:#fff url(../images/inner_page_bg.png) repeat-x center top;		
+	padding:10px;
+	border-radius:5px;	
+}
+.fontcls
+{
+	color:#c9050a;
+		font:normal 14px 'HelveticaNeueMdCn';
+}
+
+.submitcustom{
+		margin-top:10px;
+		padding:0px;				
+		height:25px;
+		width:70px;
+		}
+
+.submitcustom input{
+		height:22px;
+		width:68px;
+		margin:0px;
+		padding:0px;
+		background:url(../images/submitbg.png) no-repeat center top;
+		cursor:pointer;
+		border:none;
+		color:#fff;
+		font:normal 14px 'HelveticaNeueMdCn';
+		text-transform:uppercase;
+		}
+		
+span.smallfont
+{
+	font-size:12px;
+	float:left;
+	color:#939393;
+	font-family:Arial;
+}
+
+
+
+
+/* Print Pages */
+
+.printtitle
+{
+	font-family :verdana ;
+	font-size :8pt;
+	font-weight :bold;
+	text-decoration :underline;
+}
+
+.tblbg
+{
+	background:#f8f3ee url('../Images/mn.png') repeat-x;
+	border-bottom :2px solid #808080;
+	border-top:2px solid #808080;
+}
+.printlabel
+{
+	font-family :verdana ;
+	font-size :8pt;
+	font-weight :bold;
+	text-decoration :none;
+}
+.printlblbold
+{
+font-family :verdana ;
+	font-size :11pt;
+	font-weight :bold;
+	text-decoration :none;
+}	
+.tblborder
+{
+	background:#f8f3ee url('../Images/mn.png') repeat-x;
+	 border-top :double 5px #808080;
+	 border-bottom :solid 2px #808080;
+}
+.terms ul li
+{
+	padding-top :10px;
+	color :#373737;
+	font-family :Verdana ;
+	font-size :8pt;
+	text-align :justify ;
+	list-style-type :disc  ;
+  
+}
+.termsno
+{
+	color :#373737;
+	font-family :Verdana ;
+	font-size :8pt;
+	text-align :justify ;
+ padding-left :5px;
+}
+	
+.tblcontact
+{
+	border :solid 2px #808080;
+	border-radius:10px;
+}
+.lblcontact
+{
+	font-weight: bold;
+	 font-size: 9pt; 
+	  font-family: Arial; 
+	 color: black;
+}
+
+.printlabelbold
+{
+	font-family :verdana ;
+	font-size :10pt;
+	font-weight :bold;
+	text-decoration :none;
+}
